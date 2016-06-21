@@ -1,0 +1,22 @@
+{
+  "name": "mysite",
+  "homepage": "https://github.com/DZwell/django_react_fun",
+  "authors": [
+    "Daniel Zwelling <dzwellingmusic@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "react": "^15.1.0"
+  }
+}
