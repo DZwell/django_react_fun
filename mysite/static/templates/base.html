@@ -1,0 +1,13 @@
+{% load pipeline %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    {% stylesheet 'mysite_css' %}
+</head>
+<body>
+    <!-- Django Pipeline bundles -->
+    {% block content %}{% endblock %}
+    {% javascript 'mysite_js' %}
+</body>
+</html>
